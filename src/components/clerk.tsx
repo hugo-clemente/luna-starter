@@ -36,13 +36,6 @@ const ClerkWrapper =
           userButtonPopoverRootBox: dark ? "dark" : undefined,
           organizationSwitcherPopoverRootBox: dark ? "dark" : undefined,
         },
-        variables: dark
-          ? {
-              colorPrimary: "hsl(210 20% 98%)",
-              colorBackground: "hsl(224 71.4% 4.1%)",
-              colorText: "hsl(210 20% 98%)",
-            }
-          : undefined,
       },
     });
   };
