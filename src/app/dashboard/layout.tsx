@@ -12,10 +12,12 @@ export default async function AppLayout({
       <Header />
 
       <div className="-mt-24 container">
-        <main className="rounded-lg bg-white px-5 py-6 shadow sm:px-6">
+        <main className="rounded-lg bg-white px-5 py-6 shadow sm:px-6 min-h-[70vh] flex flex-col">
           {children}
         </main>
       </div>
     </div>
   );
 }
+
+export const runtime = "edge"; // 'nodejs' (default) | 'edge'

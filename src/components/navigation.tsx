@@ -22,7 +22,7 @@ const Navigation = <T extends string>({
         href == pathname
           ? "bg-accent text-accent-foreground"
           : "hover:bg-accent/60 hover:text-accent-foreground",
-        "rounded-md px-3 py-2 text-sm font-medium"
+        "rounded-md px-3 py-2 text-sm font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
       )}
       aria-current={href == pathname ? "page" : undefined}
     >

@@ -2,6 +2,7 @@ module.exports = {
   extends: ["next", "prettier"],
   rules: {
     "@next/next/no-html-link-for-pages": "off",
+    "react/no-unescaped-entities": "off",
   },
   parserOptions: {
     babelOptions: {

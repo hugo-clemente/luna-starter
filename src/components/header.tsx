@@ -13,12 +13,6 @@ import {
 import Image from "next/image";
 import { Button } from "./ui/button";
 
-// Header component using <SignedIn> & <SignedOut>.
-//
-// The SignedIn and SignedOut components are used to control rendering depending
-// on whether or not a visitor is signed in.
-//
-// https://docs.clerk.dev/frontend/react/signedin-and-signedout
 const Header = () => (
   <header className="dark w-full bg-background text-foreground pb-32">
     <Collapsible className="container">

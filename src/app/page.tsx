@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { auth, useOrganizationList } from "@clerk/nextjs";
+import { auth, useOrganizationList, useSignUp } from "@clerk/nextjs";
 import Link from "next/link";
 
 const Home = () => {
@@ -14,3 +14,5 @@ const Home = () => {
 };
 
 export default Home;
+
+export const runtime = "edge"; // 'nodejs' (default) | 'edge'

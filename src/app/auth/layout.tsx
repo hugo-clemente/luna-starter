@@ -9,3 +9,5 @@ export default function AuthLayout({
     </div>
   );
 }
+
+export const runtime = "edge"; // 'nodejs' (default) | 'edge'
