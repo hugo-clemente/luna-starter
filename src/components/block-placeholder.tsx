@@ -1,5 +1,5 @@
 const BlockPlaceholder = () => (
-  <div className="relative h-96 overflow-hidden rounded border border-dashed border-neutral-400 opacity-75">
+  <div className="relative flex-1 overflow-hidden rounded border border-dashed border-neutral-400 opacity-75">
     <svg
       className="absolute inset-0 h-full w-full stroke-neutral-900/10"
       fill="none"
