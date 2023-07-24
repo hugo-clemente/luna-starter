@@ -18,7 +18,7 @@ export const createWorkspace = async (inputs: { name: string }) => {
     .insert(workspace)
     .values({
       name: data.name,
-      owner: "bob",
+      owner: orgId || userId,
     })
     .returning();
 
